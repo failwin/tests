@@ -1,0 +1,21 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --opts ./mocha.opts",
+    "test:watch": "./node_modules/.bin/mocha --opts ./mocha.opts --watch"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.5",
+    "sinon-chai": "^3.2.0"
+  },
+  "dependencies": {
+    "@sisense/pivot2-sorting": "^1.0.3",
+    "p-queue": "^3.0.0"
+  }
+}
